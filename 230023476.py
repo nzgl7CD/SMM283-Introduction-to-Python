@@ -8,7 +8,6 @@ import tkinter as tk
 from tkinter import ttk, messagebox
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import customtkinter as ctk
-
 class OptimalPortfolio:
     def __init__(self, portfolio_size, risk_aversion, risk_free_rate, expected_returns, covariance_matrix):
         
